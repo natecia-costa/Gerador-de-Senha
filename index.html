@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="container-textos">
+            <h1>Gere instantaneamente uma senha aleatória e segura</h1>
+            <p>Se mantenha seguro na internet.</p>
+        </div>
+        <div class="container-senha">
+            <label for="senha-campo">Senha gerada</label>
+            <input type="text" id="senha-campo" readonly>
+        </div>
+        <div class="botoes-aux">
+            <button type="button" id="gerar-btn" onclick="gerarSenha()">Gerar outra</button>
+            <button type="button" id="copiar-btn">Copiar</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

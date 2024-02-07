@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    --cor-primaria: #8155EA;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 600px;
+    padding: 40px;
+}
+.container-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.container-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#senha-campo {
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.botoes-aux button {
+    width: 45%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#gerar-btn {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+}
+#copiar-btn {
+    border: 1px solid var(--cor-primaria);
+    background-color: transparent;
+    color: var(--cor-primaria);
+}
+.botoes-aux {
+    display: flex;
+    gap: 10%;
+}
